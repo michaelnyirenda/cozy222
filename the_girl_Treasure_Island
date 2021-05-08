@@ -23,10 +23,8 @@ ______________ ______________   ________._____________.____
                     """)
 name = input("\nI was headed out of the library but the security guard stopped me. He asked me to sign out by filling my name on a sheet before i left. So I did... \nWhat's my name? ")
 print("\nIt was around 23:20 that night... ")
-step = input("\nI was dragging myself home exhausted after a tiring night-study session on campus. \nContinue walking: Type \'CONTINUE\' to keep moving: ").lower()
-if step == "continue":
-  no_one = input ("\n \nBut there was no one on the street, which I thought was strange. \nI usually see a lot of people, even at night since my apartment complex is pretty big and busy. \n Continue walking: \nType \'CONTINUE\' to keep moving: ").lower()
-  if no_one == "continue":
+print("\nI was dragging myself home exhausted after a tiring night-study session on campus.")
+print("\n \nBut there was no one on the street, which I thought was strange. \nI usually see a lot of people, even at night since my apartment complex is pretty big and busy.")
     scared = input ("\n \nAnyways, feeling scared, I thought about looking down on the ground while walking home. \nType \'LOOK DOWN\' to look down or \'CONTINUE\'' to proceed: ").lower()
     if scared == "look down":
       print("\n \nSuddenly, a shadow stretching towards me caught my eyes... although there wasn't anyone around me")
