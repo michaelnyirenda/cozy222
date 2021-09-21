@@ -1,0 +1,156 @@
+body{
+  margin:0;
+  background-color: black;
+  align-content: center;
+}
+.header{
+  background-color: black;
+  display: block;
+  position: fixed;
+  top:0;
+  width: 100%;
+height: 50px;
+}
+.logo{
+  max-width: 120px;
+  position: fixed;
+  left: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  position: relative;
+  top: 55px;
+  align-content: space-between;
+max-height: 490px;
+}
+
+.mainpage:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page {
+   max-width: 100%;
+}
+
+.topbar{
+  display: block;
+}
+.button {
+    border: 1px solid transparent;
+    border-radius: 400px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.76px;
+    line-height: 18px;
+    padding: 8px 34px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 33ms cubic-bezier(.3,0,0,1);
+    white-space: nowrap;
+}
+.login {
+    background-color: #fff;
+    color: #181818;
+}
+.sign{
+    background-color: #000;
+    color: #fff;
+}
+.topbar{
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+.button2 {
+  position: relative;
+  bottom: 150px;
+  left: 25%;
+  right: 25%;
+  max-width: 50%;
+
+    border: 2px solid transparent;
+    border-radius: 500px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.76px;
+    line-height: 18px;
+    padding: 8px 34px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 33ms cubic-bezier(.3,0,0,1);
+    white-space: nowrap;
+}
+a{
+  color: #000;
+}
+a:hover{
+  color: #fff;
+}
+.getmonths{
+    background-color: #f753ce;
+    color: #000;
+
+    white-space: normal;
+}
+.music{
+    background-color: #45d7fc
+;
+white-space: normal;
+    color: #000;
+}
+.freedown{
+    background-color: #b646ff
+;
+white-space: normal;
+    color: #000;
+}
+.end{
+  background-color: black;
+  display: inline-table;
+  width: 100%;
+  height: 125px;
+  z-index: 100;
+  position: fixed;
+  resize: none;
+  bottom: 0;
+}
+.logo2{
+  max-width: 150px;
+  position: fixed;
+  left: 15px;
+  bottom:7%;
+}
+table{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  text-align: left;
+  font-size: 10px;
+}
+th{
+  text-decoration: underline;
+}
+
+.bottomlinks{
+  color: #fff;
+}
+.bottomlinks:hover{
+  color: #000;
+}
+p
+{
+  font-style: italic;
+  color: #666666;
+}
